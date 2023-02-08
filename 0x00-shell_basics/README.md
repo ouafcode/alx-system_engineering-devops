@@ -11,3 +11,4 @@ delete file from dir
 changing the working directory to the previous one 
 script all list file in current dir and parent dir and the boot
 print the type of the file
+creat symbolic link
