@@ -14,3 +14,4 @@ print the type of the file
 creat symbolic link
 copy HTML file
 move all files begin ith uppercase letter
+delete all files end with ~
