@@ -16,3 +16,4 @@ copy HTML file
 move all files begin ith uppercase letter
 delete all files end with ~
 create tree directory
+list all fill separated with , end with /and sorted
