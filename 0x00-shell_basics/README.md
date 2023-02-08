@@ -8,3 +8,4 @@ create directory
 move betty file to new directory 
 delete file from dir
  Delete directory
+changing the working directory to the previous one 
