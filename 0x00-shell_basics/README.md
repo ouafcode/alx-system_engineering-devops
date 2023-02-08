@@ -5,3 +5,4 @@ Display current directory in long format
 diplay hidden file with long format
 display directory contant :long format,num ID and user , hidden files
 create directory 
+move betty file to new directory 
