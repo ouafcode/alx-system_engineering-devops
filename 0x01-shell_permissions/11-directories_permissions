@@ -1,2 +1,2 @@
 #!/bin/bash
-find 11-directories_permissions -type d -exec chmod ugo+x {} \;
+chmod -R -type d ugo+x /tmp/h$
