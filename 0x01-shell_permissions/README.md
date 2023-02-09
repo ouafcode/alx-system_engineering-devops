@@ -9,3 +9,4 @@ add execute permission to owner ,group and other
 set permission to file
 script that set specific mode
 copier permission from reference file to another file
+add execute permissiom to all subdir
