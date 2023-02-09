@@ -12,3 +12,4 @@ copier permission from reference file to another file
 add execute permissiom to all subdir
 set permission when creat dir
 change the owner group for file
+change owner and groupe of file 
