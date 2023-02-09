@@ -7,3 +7,4 @@ add execute permission to the owner
 add execute permission to u and g ,read for o
 add execute permission to owner ,group and other
 set permission to file
+script that set specific mode
