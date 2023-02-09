@@ -10,3 +10,4 @@ set permission to file
 script that set specific mode
 copier permission from reference file to another file
 add execute permissiom to all subdir
+set permission when creat dir
