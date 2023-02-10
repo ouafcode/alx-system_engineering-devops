@@ -13,3 +13,4 @@ add execute permissiom to all subdir
 set permission when creat dir
 change the owner group for file
 change owner and groupe of file 
+change owner and group of symbolic link
