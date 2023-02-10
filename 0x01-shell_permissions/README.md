@@ -14,3 +14,4 @@ set permission when creat dir
 change the owner group for file
 change owner and groupe of file 
 change owner and group of symbolic link
+change owner of file for specific owner
