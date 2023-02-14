@@ -7,3 +7,4 @@ list all local variable and env var and functions
 create new local variable
 create new global variable
 print the result of addition
+print result of power / divide 
