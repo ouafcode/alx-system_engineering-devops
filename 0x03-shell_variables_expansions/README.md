@@ -10,3 +10,4 @@ print the result of addition
 print result of power / divide 
 display the result of var1 to the power var2
 convert number from base 2 to base 10
+print al possibile combinaition of two letter
