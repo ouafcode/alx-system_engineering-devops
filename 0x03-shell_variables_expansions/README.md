@@ -14,3 +14,4 @@ print al possibile combinaition of two letter
 print number with two decimal place
 convert a number from base 10 to base 16
 encode and decode text 
+  prints every other line from the input, starting with the first line.
