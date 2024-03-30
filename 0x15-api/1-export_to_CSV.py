@@ -1,4 +1,4 @@
-#!/usr/bin/pythON3
+#!/usr/bin/python3
 """ Export data to csv format """
 import csv
 import requests
