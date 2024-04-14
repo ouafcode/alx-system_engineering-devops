@@ -1,16 +1,18 @@
 #!/usr/bin/python3
-"""function that queries the Reddit API"""
+"""
+this doc for module
+"""
 import requests
+
+headers = {"User-Agent": "Extra-Friendship-842/1.0"}
 
 
 def number_of_subscribers(subreddit):
-    """returns the number of subscribers"""
+    """method doc"""
     url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
-    headers = {
-        "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/Extra-Friendship-842)"
-    }
-    response = requests.get(url, headers=headers, allow_redirects=False)
-    if response.status_code == 404:
+    response = requests.get(url, allow_redirects=False, headers=headers)
+    if response.status_code == 200:
+        data = response.json()
+        return data["data"]["subscribers"]
+    else:
         return 0
-    results = response.json().get("data")
-    return results.get("subscribers")
