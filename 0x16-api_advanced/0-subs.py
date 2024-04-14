@@ -1,17 +1,19 @@
 #!/usr/bin/python3
-"""
-this doc for module
-"""
+""" requests number of subscribers from reddit api """
+import re
 import requests
 
 
 def number_of_subscribers(subreddit):
-    """method doc"""
-    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
-    headers = {"User-Agent": "MyCustomUserAgent/1.0"}
-    response = requests.get(url, allow_redirects=False, headers=headers)
-    if response.status_code == 200:
-        data = response.json()
-        return data["data"]["subscribers"]
+    """ returns the number of subscribers """
+
+    url = f"https://www.reddit.com/r/{subreddit}/about/"
+    res = requests.get(url)
+    html = res.text
+    pattern = r'subscribers="([^"]*)"'
+    subscribers = re.search(pattern, html)
+
+    if subscribers:
+        return int(subscribers[0][13:-1])
     else:
         return 0
